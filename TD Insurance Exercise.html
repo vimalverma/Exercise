@@ -1,0 +1,222 @@
+
+<html lang="en-CA" xml:lang="en-CA">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = yes" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>TD Insurance Savings Commitment™ | TD Insurance</title>
+
+<link rel="shortcut icon" href="https://www.tdinsurance.com/images/evergreen/ui/favicon.ico" type="image/vnd.microsoft.icon">
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://www.tdinsurance.com/system/v0.90/assets/css/default.css" type="text/css">
+<link rel="stylesheet" href="https://www.tdinsurance.com/system/v0.90/assets/css/td-docs.css" type="text/css">
+<link rel="stylesheet" href="https://www.tdinsurance.com/system/v0.90/assets/css/td_sp.css" type="text/css">
+<link rel="stylesheet" href="https://www.tdinsurance.com/system/v0.90/assets/css/Co-browse.css" type="text/css">
+<link rel="stylesheet" href="https://www.tdinsurance.com/system/v0.90/assets/css/LPChat.css" type="text/css">
+
+<!-- JS -->
+<script src="https://www.tdinsurance.com/system/v0.90/assets/js/Lib/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- top navigation menu -->	
+<nav class="td_rq_menu td-navigation td-left-menu" role="navigation" aria-label="Main Navigation" aria-hidden="false">
+	<!-- container for navigation -->
+	<div class="td-container" id="navContainer">
+		<!-- TD Logo -->
+		<div class="td-off-canvas-header">
+			<div class="td-logo-title-container">
+				<a id="myAnchor" class="td-logo" href="https://www.tdinsurance.com/" onclick="_self"> 
+					<img alt="TD Insurance" class="logo-desktop" src="https://www.tdinsurance.com/Images/TDI_DT_TabL_logo_tcm315-176760.png" /> 
+				</a>
+			</div>	
+		</div>
+
+		<!-- menu items -->
+		<ul class="td-nav-left td-nav-list pull-left" id="navLevel1">
+			<li class="active">	<a href="https://www.tdinsurance.com/products-services"> Products</a> </li>
+			<li> <a href="https://www.tdinsurance.com/my-policies">Claims</a> </li>		
+			<li> <a href="https://www.tdinsurance.com/customer-service"> Contact Us</a> </li>	
+		</ul>
+			
+		<ul class="td-complementary-nav pull-right visible-lg visible-md" aria-hidden="false">
+			<!-- select providence -->	
+			<li class="td-flyout-label" >
+				<a href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="province_option">
+					<span class="td-forscreenreader">Select province</span>Ontario
+					<span class="td-icon td-copy-white td-icon-downCaret td-floatright"></span>
+				</a>
+			</li>
+
+			<!-- select language -->
+			<li class="td-flyout-label" aria-haspopup="true">
+				<a href="javascript:void(0);" aria-haspopup="true" aria-expanded="false" aria-controls="language_option">
+					<span class="td-forscreenreader">Select language</span> EN
+					<span class="td-icon td-copy-white td-icon-downCaret td-floatright"></span>
+				</a>		
+			</li>
+
+			<!-- Login to TD-Insurance -->	
+			<li class="td-my-insurance">	
+				<a href="https://myinsurance.td.com/" target="">
+				<span class="td-icon td-copy-white td-icon-password td-floatleft td-copy-emphasized td-margin-right-0"></span>Login</a>
+			</li>	
+		</ul>
+	</div>
+</nav>
+
+
+<div role="main">
+
+<div class="td-container td-rte-margin-top-none">
+	<section class="full-bleed" style="background-color:#f3f3f3">
+	<!-- main row -->
+	<div class="td-row">
+		<!-- left/center section -->
+		<div class="td-col-xs-9">
+			<div class="td-row">
+				<div class="td-col-xs-12">
+				<section class="full-bleed">
+                  <div>
+					   <h3>Tell Us AboutYourself</h3>
+					   <p>Thanks for choosing TD Insurance! In Order to safely set up your new accounts and services, please tell us about yourself.</p>
+					   
+					   <h3>Personal Information</h3>
+					</div>
+				</section>	
+				</div>
+			</div>
+			<div class="td-row">
+				<div class="td-col-xs-3">
+                   <div class="td-select">
+						<select aria-label="Title" required="" name="Title" ng-model="$ctrl.selectedYear" aria-required="true" aria-describedby="title" ng-model-blur="" class="ng-pristine form-control ng-empty ng-invalid ng-invalid-required ng-touched" style="height:40px">
+                                    <option value="">Title*<option>
+                                </select></div>
+			    </div>
+				<div class="td-col-xs-3">
+                   <div ng-transclude="">
+							<input type="text" ng-model="enrollmentDataModel.firstName" name="firstName" maxlength="25" placeholder="First Name*" ng-pattern="/^[a-zA-Z0-9'\-\s]+$/" class="ng-scope form-control ng-invalid ng-invalid-required ng-valid-pattern ng-dirty" tabindex="0" >
+							
+						</div>
+			    </div>
+				<div class="td-col-xs-3">
+                   <div ng-transclude="">
+						  <input type="text" ng-model="enrollmentDataModel.middleName" name="middleName" maxlength="25" placeholder="Middle Initial" ng-pattern="/^[a-zA-Z0-9'\-\s]+$/" class="ng-scope form-control ng-invalid" tabindex="0" ></div>
+			     </div>
+				<div class="td-col-xs-3">
+                   <div ng-transclude="">
+							<input type="text" ng-model="enrollmentDataModel.lastName" name="lastName" maxlength="25" placeholder="Last Name*" ng-pattern="/^[a-zA-Z0-9'\-\s]+$/" class="ng-scope form-control ng-invalid ng-invalid-required ng-valid-pattern ng-dirty" tabindex="0" >
+							
+					</div>
+			    </div>
+			</div>
+			<div class="td-row td-padding-vert-30">
+                <div class="td-col-xs-4">				
+					<div ng-transclude="">
+							<input type="text" ng-model="enrollmentDataModel.email" name="email" maxlength="25" placeholder="Email address*" ng-pattern="" class="ng-scope form-control ng-invalid ng-invalid-required ng-valid-pattern ng-dirty" tabindex="0" style="display:unset;width:90%" >
+							<a href="javascript:void(0);" class="vds-gray-darker-color guidance" ng-click="" aria-label="Email"> 
+						<img ng-src="https://www.wcmcaas.td.com/en/images/tdigi/tooltip.svg" alt="Email" width="20px" height="20px" src="https://www.wcmcaas.td.com/en/images/tdigi/tooltip.svg">
+						</a> 
+					</div>					
+				</div>
+				<div class="td-col-xs-4">
+					<div ng-transclude="">
+							<input type="text" ng-model="enrollmentDataModel.dob" name="dob" maxlength="25" placeholder="Date Of Birth*" ng-pattern="" class="ng-scope form-control ng-invalid ng-invalid-required ng-valid-pattern ng-dirty" tabindex="0" >
+							
+					</div>
+				</div>
+				<div class="td-col-xs-4">
+					<div ng-transclude="">
+							<input type="text" ng-model="enrollmentDataModel.SIN" name="SIN" maxlength="25" placeholder="Social Insurance Number*" ng-pattern="" class="ng-scope form-control ng-invalid ng-invalid-required ng-valid-pattern ng-dirty" tabindex="0" style="display:unset;width:90%" >
+							<a href="javascript:void(0);" class="vds-gray-darker-color guidance" ng-click="" aria-label="SIN"> 
+						<img ng-src="https://www.wcmcaas.td.com/en/images/tdigi/tooltip.svg" alt="SIN" width="20px" height="20px" src="https://www.wcmcaas.td.com/en/images/tdigi/tooltip.svg">
+						</a> 
+					</div>
+				</div>				
+			</div>
+			<div class="td-row td-padding-vert-20">
+				<div class="td-col-xs-12">
+					<button id="submit" class="td-button td-button-secondary td-button-super-compact td-floatright" type="button" onclick="">Submit</button>
+					<button id="cancel" class="td-button td-button-primary td-button-super-compact td-floatright" type="button" onclick="">Cancel</button>
+				</div>
+			</div>			
+		</div>
+		<!-- right section -->
+		<div class="td-col-xs-3">
+			<h3>You are applying for:</h3>
+				   <p>TD&reg; Travel Medical Insurance</p>
+				   <button id="coverageOptions" class="td-button td-button-secondary td-button-super-compact" type="button" onclick="">See More Coverage Options</button>
+		</div>
+	</div>
+			  
+</div>
+		
+</div>
+
+
+<!-- footer -->
+<footer class="td-fullwidth-dark-green td-padding-vert-0" role="contentinfo">
+<div class="td-container">
+	<div class="td-row">
+		<div class="td-footer-content td-col-xs-12" style="background-image:url(&#39;https://www.tdinsurance.com//Images/footer_seat_tcm315-176757.png&#39;);">
+				
+			<p class="td-footer-heading td-copy-white td-copy-align-centre" property="s:heading">Need to talk to us directly?<a href="https://www.tdinsurance.com/customer-service/contact-us" target="_self" class="td-contact-link td-link-nounderline td-link-standalone">Contact <span class="td-link-lastword">us<span class="td-icon td-icon-rightCaret" aria-hidden="true"></span></span></a>
+			</p>
+				
+			<div class="td-footer-links td-copy-align-centre td-copy-white">
+				<!-- footer links section -->
+				<div class="td-col-xs-12 td-col-sm-12">
+					<hr class="td-divide light-gray td-margin-sm-horiz-10 td-margin-bottom-0">
+				</div>
+				
+				<a id="myAnchor" class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="http://www.td.com/privacy-and-security/privacy-and-security/tdi-index.jsp">Privacy and Security</a>
+			
+				<a id="myAnchor" class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="https://www.tdinsurance.com/legal">Legal</a>
+			
+				<a id="myAnchor" class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="https://www.tdinsurance.com/customer-service/accessibility">Accessibility</a>
+			
+				<a id="myAnchor" class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="https://www.tdinsurance.com/about-us/">About Us</a>
+								
+				<a id="myAnchor" class="td-copy-white td-link-nounderline td-copy-standard" target="_blank" href="http://jobs.td.com/">Careers</a>	
+
+				<div class="td-col-xs-12 td-col-sm-12 td-margin-top-40">
+					<hr class="td-divide light-gray td-margin-sm-horiz-10 td-margin-bottom-0 ">
+				</div>					
+					
+			</div>	
+		
+			<div class="td-footer-social td-copy-align-centre">
+				<!-- social media section -->
+				<ul>	
+					<li><a class="td-link-nounderline" href="https://www.facebook.com/TDInsurance/" target="_blank">
+						<div class="td-icon-wrapper td-interactive-icon td-background-darkgreen">
+							<span aria-hidden="true" class="td-icon td-icon-facebookIcon" style="line-height:1.2"></span>
+								<span class="td-forscreenreader" id="icon1Description">Facebook</span>
+						</div></a>
+					</li>
+					<li><a class="td-link-nounderline" href="https://twitter.com/TD_Insurance" target="_blank">
+						<div class="td-icon-wrapper td-interactive-icon td-background-darkgreen">
+							<span aria-hidden="true" class="td-icon td-icon-twitterIcon" style="line-height:1.2"></span>
+								<span class="td-forscreenreader" id="icon2Description">Twitter</span>
+						</div></a>
+					</li>
+					<li><a class="td-link-nounderline" href="https://www.youtube.com/channel/UC_6ADZIvEFxWnYGG6j_6FLA" target="_blank">
+						<div class="td-icon-wrapper td-interactive-icon td-background-darkgreen">
+							<span aria-hidden="true" class="td-icon td-icon-youtubeLogo" style="line-height:1.2"></span>
+								<span class="td-forscreenreader" id="icon3Description">YouTube</span>
+						</div></a>
+					</li>						
+				</ul>
+			</div>		
+		</div>
+	</div>
+</div>
+</footer>
+
+</body>
+</html>
